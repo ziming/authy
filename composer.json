@@ -1,3 +1,4 @@
+
 {
     "name": "laravel-notification-channels/authy",
     "description": "Authy notification channel for Laravel, with the ability to send in-app, sms, and call verification tokens.",
@@ -39,12 +40,12 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "illuminate/queue": "^7.0.0",
-        "rinvex/laravel-authy": "^7.0.0",
-        "illuminate/notifications": "^7.0.0"
+        "illuminate/queue": "^7.0.0|^8.0.0",
+        "rinvex/laravel-authy": "dev-master",
+        "illuminate/notifications": "^7.0.0|^8.0.0"
     },
     "require-dev": {
-        "codedungeon/phpunit-result-printer": "^0.27.0",
+        "codedungeon/phpunit-result-printer": "^0.28.0",
         "phpunit/phpunit": "^9.0.0",
         "mockery/mockery": "^1.3.0"
     },
@@ -67,5 +68,11 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ziming/laravel-authy"
+        }
+    ]
 }
