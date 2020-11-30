@@ -39,7 +39,7 @@
         }
     ],
     "require": {
-        "php": "^7.4.0",
+        "php": "^7.4.0|^8.0",
         "illuminate/queue": "^7.0.0|^8.0.0",
         "rinvex/laravel-authy": "dev-master",
         "illuminate/notifications": "^7.0.0|^8.0.0"
